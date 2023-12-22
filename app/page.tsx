@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Intro from "@/components/intro";
-import SectionDivider from "@/components/SectionDivider";
+import SectionDivider from "@/components/sectionDivider";
 
 export default function Home() {
   return (
