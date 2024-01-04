@@ -76,12 +76,9 @@ export default function Intro() {
                     Contact me here
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"/>
                 </Link>
-                <a className="group bg-white text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full outline-none
-                 focus:scale-110
-                 hover:scale-110
-                 active:scale-105
-                 transition
-                  cursor-pointer borderBlack" href="/CV.pdf" download>
+                <a           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none
+                 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+                             href="/CV.pdf" download>
                     Dowbload CV{" "}
                     <HiDownload className="opacity-90 group-hover:translate-y-1 transition"/>
                 </a>
@@ -92,7 +89,7 @@ export default function Intro() {
                  hover:text-gray-950
                  active:scale-105
                  transition
-                  cursor-pointer borderBlack" href="https://www.linkedin.com/in/guy-reuveni7/"
+                  cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://www.linkedin.com/in/guy-reuveni7/"
                    target="_blank">
                     <BsLinkedin/>
                 </a>
@@ -103,7 +100,7 @@ export default function Intro() {
                  hover:text-gray-950
                  active:scale-105
                  transition
-                  cursor-pointer borderBlack" href="https://github.com/guyreuveni33" target="_blank">
+                  cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://github.com/guyreuveni33" target="_blank">
                     <FaGithubSquare/></a>
             </motion.div>
         </section>
