@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import arkanoidImg from "@/public/arkanoid.png";
 export const links = [
     {
         name: "Home",
@@ -69,11 +69,14 @@ export const projectsData = [
         imageUrl: corpcommentImg,
     },
     {
-        title: "rmtDev",
+        title: "Break Breaker - Arkanoid",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+            "An exciting implementation created as part of an Object-Oriented Programming (OOP) course during" +
+            " my bachelor's degree. This classic Arkanoid game brings back the nostalgia of breaking bricks while" +
+            " incorporating modern game design principles. Explore various levels with increasing difficulty, all" +
+            " presented in a user-friendly graphical interface.",
         tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: rmtdevImg,
+        imageUrl: arkanoidImg,
     },
     {
         title: "Word Analytics",
@@ -100,4 +103,11 @@ export const skillsData = [
     "Express",
     "SQL",
     "Python",
+    "Bootsrap",
+    "C#",
+    "Assembly",
+    "OOP",
+    "Data Structures",
+    "Design Patterns",
+    "Algorithms",
 ] as const;
