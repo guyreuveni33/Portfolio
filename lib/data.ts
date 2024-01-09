@@ -6,6 +6,7 @@ import whatsapp from "@/public/Whatsapp.png";
 import KNN from "@/public/KNN.png";
 import Pstring from "@/public/pstring4.png";
 import dic from "@/public/dic.png";
+import android from "@/public/android.png";
 export const links = [
     {
         name: "Home",
@@ -107,6 +108,15 @@ export const projectsData = [
         imageUrl: dic,
         linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
 
+    },
+
+    {
+        title: "Android Web Chat",
+        description:
+        "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
+        tags: ["Android Development", "Java", "AP 2","MongoDB","Node.js"],
+        imageUrl: android,
+        linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
 
 ] as const;
