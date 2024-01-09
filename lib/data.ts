@@ -1,11 +1,12 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import {FaBook, FaHeadphones} from "react-icons/fa";
+import {LuShield} from "react-icons/lu";
 import arkanoidImg from "@/public/arkanoid.png";
+import whatsapp from "@/public/Whatsapp.png";
+import KNN from "@/public/KNN.png";
+import Pstring from "@/public/pstring4.png";
+import dic from "@/public/dic.png";
+import androidwebchat from "@/public/androidwebchat.png";
 export const links = [
     {
         name: "Home",
@@ -35,55 +36,86 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
+        title: "Deputy of The Head Of Section - Bnei Hayeshivot",
+        location: "The recruiting office,Tel Hashomer",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-        icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        "In my role I assisted the head of the section in leading the recruitment efforts. I filled \n" +
+            "Officer position, command and management of a department of about 30" +
+            "Soldiers, managing administrative tasks, conducting candidate evaluations,\n" +
+            "and optimization of the recruitment procedures",
+        icon: React.createElement(LuShield),
+        date: "2019-2021",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "Computer Science Student",
+        location: "Bar Ilan University, Ramat Gan",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+        "Directly after my army service, I started learning Computer Science at Bar Ilan University, realizing a long-held dream. Diligently tackling assignments, conquering projects, and embracing new tools everyday",
+        icon: React.createElement(FaBook),
+        date: "2021 - 2024",
     },
     {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
+        title: "IT Support Tomax Testing",
+        location: "Bar Ilan University, Ramat Gan",
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
+        "As IT Support at Tomax Testing, I ensure a smooth, secure, and reliable remote testing experience. Expertly tackle technical challenges and provide invaluable support in navigating the intricacies of the testing-from-home system, including real-time monitoring through cameras.",
+        icon: React.createElement(FaHeadphones),
+        date: "2023 - present",
     },
 ] as const;
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "Web Chat",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: corpcommentImg,
+            "Designed a dynamic web chat application using React, Java, MongoDB, and Node.js for seamless integration and optimal performance.",
+        tags: ["React", "Node.js", "MongoDB", "Express", "Bootstrap", "AP 2"],
+        imageUrl: whatsapp,
+        linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023",
     },
     {
         title: "Break Breaker - Arkanoid",
         description:
-            "An exciting implementation created as part of an Object-Oriented Programming (OOP) course during" +
-            " my bachelor's degree. This classic Arkanoid game brings back the nostalgia of breaking bricks while" +
-            " incorporating modern game design principles. Explore various levels with increasing difficulty, all" +
-            " presented in a user-friendly graphical interface.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
+        tags: ["Java", "Design Pattern", "OOP"],
         imageUrl: arkanoidImg,
+        linkUrl:"https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
+
     },
     {
-        title: "Word Analytics",
+        title: "Vector Classifier",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg,
+            "Created a Vector Classifier project in C++ employing the KNN algorithm and a multi-threading server-client connection for efficient vector classification.",
+        tags: ["C++", "Multi-Threading", "Algorithm", "SocketIO", "AP 1"],
+        imageUrl: KNN,
+        linkUrl:"https://github.com/guyreuveni33/Vector-Classifier",
+    },
+
+    {
+        title: "P String Library",
+        description:
+            "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
+        tags: ["Assembly", "Linux", "Computer Architecture"],
+        imageUrl: Pstring,
+        linkUrl:"https://github.com/guyreuveni33/Pstring",
+
+    },
+    {
+        title: "Dinamically Sized Dictionary",
+        description:
+            "A dictionary that can grow and shrink dynamically, written in C.",
+        tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
+        imageUrl: dic,
+        linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
+
+    },
+    {
+        title: "Android Web Chat",
+        description:
+        "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
+        tags: ["Android Development", "Java", "AP 2","MongoDB","Node.js"],
+        imageUrl: androidwebchat,
+        linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
 ] as const;
 
@@ -105,6 +137,7 @@ export const skillsData = [
     "Python",
     "Bootsrap",
     "C#",
+    "Android Development",
     "Assembly",
     "OOP",
     "Data Structures",
