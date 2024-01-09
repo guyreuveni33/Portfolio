@@ -7,7 +7,7 @@ import KNN from "@/public/KNN.png";
 import Pstring from "@/public/pstring4.png";
 import dic from "@/public/dic.png";
 import android from "@/public/android.png";
-export const links = [
+ export const links = [
     {
         name: "Home",
         hash: "#home",
@@ -58,7 +58,7 @@ export const experiencesData = [
         title: "IT Support Tomax Testing",
         location: "Bar Ilan University, Ramat Gan",
         description:
-        "As IT Support at Tomax Testing, I ensure a smooth, secure, and reliable remote testing experience. Expertly tackle technical challenges and provide invaluable support in navigating the intricacies of the testing-from-home system, including real-time monitoring through cameras.",
+        "As IT Support at Tomax Testing, I ensure a smooth and secure remote testing experience. Expertly tackling technical challenges, I provide invaluable support for navigating the intricacies of the process.",
         icon: React.createElement(FaHeadphones),
         date: "2023 - present",
     },
@@ -95,7 +95,7 @@ export const projectsData = [
         title: "P String Library",
         description:
             "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
-        tags: ["Assembly", "Linux", "Computer Architecture"],
+        tags: ["Assembly", "Linux"],
         imageUrl: Pstring,
         linkUrl:"https://github.com/guyreuveni33/Pstring",
 
@@ -103,22 +103,19 @@ export const projectsData = [
     {
         title: "Dinamically Sized Dictionary",
         description:
-            "A dictionary that can grow and shrink dynamically, written in C.",
+            "",
         tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
         imageUrl: dic,
         linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
-
     },
-
     {
         title: "Android Web Chat",
         description:
-        "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
+            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
         tags: ["Android Development", "Java", "AP 2","MongoDB","Node.js"],
         imageUrl: android,
         linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
-
 ] as const;
 
 export const skillsData = [
