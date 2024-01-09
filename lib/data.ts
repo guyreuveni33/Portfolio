@@ -6,7 +6,6 @@ import whatsapp from "@/public/Whatsapp.png";
 import KNN from "@/public/KNN.png";
 import Pstring from "@/public/pstring4.png";
 import dic from "@/public/dic.png";
-import android from "@/public/android.png";
 export const links = [
     {
         name: "Home",
