@@ -103,7 +103,7 @@ export const projectsData = [
     {
         title: "Dinamically Sized Dictionary",
         description:
-            "",
+            " A dynamic dictionary implemented in C, using dynamic allocation and linked lists to manage the dictionary.",
         tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
         imageUrl: dic,
         linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
