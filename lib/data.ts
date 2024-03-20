@@ -6,6 +6,7 @@ import whatsapp from "@/public/Whatsapp.png";
 import KNN from "@/public/KNN.png";
 import Pstring from "@/public/pstring4.png";
 import dic from "@/public/dic.png";
+import BFS from "@/public/BFS.webp";
 import android from "@/public/android.png";
  export const links = [
     {
@@ -101,12 +102,20 @@ export const projectsData = [
 
     },
     {
-        title: "Dinamically Sized Dictionary",
+        title: "Dynamic Dictionary",
         description:
             " A dynamic dictionary implemented in C, using dynamic allocation and linked lists to manage the dictionary.",
         tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
         imageUrl: dic,
         linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
+    },
+    {
+        title: "Parallel BFS",
+        description:
+            "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
+        tags: ["C", "ThreadPool", "Parallel Computing","Algorithm"],
+        imageUrl: BFS,
+        linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
     },
     {
         title: "Android Web Chat",
