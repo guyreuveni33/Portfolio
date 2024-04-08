@@ -110,14 +110,6 @@ export const projectsData = [
         linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
     },
     {
-        title: "Parallel BFS",
-        description:
-            "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
-        tags: ["C", "ThreadPool", "Parallel Computing","Algorithm"],
-        imageUrl: BFS,
-        linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
-    },
-    {
         title: "Android Web Chat",
         description:
             "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
@@ -125,6 +117,15 @@ export const projectsData = [
         imageUrl: android,
         linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
+    {
+        title: "Parallel BFS",
+        description:
+            "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
+        tags: ["C", "ThreadPool", "Parallel Computing","Algorithm"],
+        imageUrl: BFS,
+        linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
+    },
+
 ] as const;
 
 export const skillsData = [
