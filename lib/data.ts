@@ -117,15 +117,14 @@ export const projectsData = [
         imageUrl: android,
         linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
-    {
+    /*{
         title: "Parallel BFS",
         description:
             "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
         tags: ["C", "ThreadPool", "Parallel Computing","Algorithm"],
         imageUrl: BFS,
         linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
-    },
-
+    },*/
 ] as const;
 
 export const skillsData = [
