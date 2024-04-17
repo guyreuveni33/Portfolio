@@ -109,14 +109,22 @@ export const projectsData = [
         imageUrl: dic,
         linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
     },
-    /*{
+    {
         title: "Android Web Chat",
         description:
             "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
-        tags: ["Android Development", "Java", "AP 2","MongoDB","Node.js"],
+        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
         imageUrl: android,
-        linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
-    },*/
+        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
+    },
+    {
+        title: "Android Web Chat",
+        description:
+            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
+        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
+        imageUrl: android,
+        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
+    },
     {
         title: "Parallel BFS",
         description:
@@ -125,6 +133,7 @@ export const projectsData = [
         imageUrl: BFS,
         linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
     },
+
 ] as const;
 
 export const skillsData = [
