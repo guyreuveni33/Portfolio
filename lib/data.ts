@@ -117,6 +117,7 @@ export const projectsData = [
         imageUrl: android,
         linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
+
     {
         title: "Parallel BFS",
         description:
