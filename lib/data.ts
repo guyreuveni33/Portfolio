@@ -8,6 +8,7 @@ import Pstring from "@/public/pstring4.png";
 import dic from "@/public/dic.png";
 import BFS from "@/public/BFS.webp";
 import android from "@/public/android.png";
+import ticTacToe from "@/public/ticTacToe.png";
  export const links = [
     {
         name: "Home",
@@ -75,6 +76,14 @@ export const projectsData = [
         linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023",
     },
     {
+        title: "Tic Tac Toe",
+        description: "Developed a versatile Tic Tac Toe game featuring multiple difficulty levels and a two-player mode.",
+        tags: ["Python", "Flask", "JavaScript", "CSS", "HTML", "Docker"],
+        imageUrl: ticTacToe,
+        linkUrl: "https://github.com/guyreuveni33/TicTacToe.git"
+    },
+
+    {
         title: "Break Breaker - Arkanoid",
         description:
             "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
@@ -110,6 +119,14 @@ export const projectsData = [
         linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
     },
     {
+        title: "Parallel BFS",
+        description:
+            "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
+        tags: ["C", "ThreadPool", "Parallel Computing","Algorithm"],
+        imageUrl: BFS,
+        linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
+    },
+    {
         title: "Android Web Chat",
         description:
             "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
@@ -118,14 +135,7 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
 
-    {
-        title: "Parallel BFS",
-        description:
-            "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
-        tags: ["C", "ThreadPool", "Parallel Computing","Algorithm"],
-        imageUrl: BFS,
-        linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
-    },
+
 
 ] as const;
 
