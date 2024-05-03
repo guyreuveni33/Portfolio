@@ -1,5 +1,5 @@
 import React from "react";
-import {FaBook, FaHeadphones} from "react-icons/fa";
+import {FaBook, FaChalkboard, FaHeadphones} from "react-icons/fa";
 import {LuShield} from "react-icons/lu";
 import arkanoidImg from "@/public/arkanoid.png";
 import whatsapp from "@/public/Whatsapp.png";
@@ -9,7 +9,8 @@ import dic from "@/public/dic.png";
 import BFS from "@/public/BFS.webp";
 import android from "@/public/android.png";
 import ticTacToe from "@/public/ticTacToe.png";
- export const links = [
+
+export const links = [
     {
         name: "Home",
         hash: "#home",
@@ -41,7 +42,7 @@ export const experiencesData = [
         title: "Deputy of The Head Of Section - Bnei Hayeshivot",
         location: "The recruiting office,Tel Hashomer",
         description:
-        "In my role I assisted the head of the section in leading the recruitment efforts. I filled \n" +
+            "In my role I assisted the head of the section in leading the recruitment efforts. I filled \n" +
             "Officer position, command and management of a department of about 30" +
             "Soldiers, managing administrative tasks, conducting candidate evaluations,\n" +
             "and optimization of the recruitment procedures",
@@ -52,7 +53,7 @@ export const experiencesData = [
         title: "Computer Science Student",
         location: "Bar Ilan University, Ramat Gan",
         description:
-        "Directly after my army service, I started learning Computer Science at Bar Ilan University, realizing a long-held dream. Diligently tackling assignments, conquering projects, and embracing new tools everyday",
+            "Directly after my army service, I started learning Computer Science at Bar Ilan University, realizing a long-held dream. Diligently tackling assignments, conquering projects, and embracing new tools everyday",
         icon: React.createElement(FaBook),
         date: "2021 - 2024",
     },
@@ -60,8 +61,19 @@ export const experiencesData = [
         title: "IT Support Tomax Testing",
         location: "Bar Ilan University, Ramat Gan",
         description:
-        "As IT Support at Tomax Testing, I ensure a smooth and secure remote testing experience. Expertly tackling technical challenges, I provide invaluable support for navigating the intricacies of the process.",
+            "As IT Support at Tomax Testing, I ensure a smooth and secure remote testing experience. Expertly tackling technical challenges, I provide invaluable support for navigating the intricacies of the process.",
         icon: React.createElement(FaHeadphones),
+        date: "2023 - present",
+    },
+    {
+        title: "Part-Time Teacher Assistant",
+        location: "Cet (center for educational technology), Ramat Gan",
+        description:
+            "As a part-time Teacher Assistant at cet, I guide high school students in" +
+            "the Scientific-Technological Reserve program, focusing on Python" +
+            "programming to bolster their skills in mathematics, sciences, and" +
+            "computing.",
+        icon: React.createElement(FaChalkboard ),
         date: "2023 - present",
     },
 ] as const;
@@ -73,7 +85,7 @@ export const projectsData = [
             "Designed a dynamic web chat application using React, Java, MongoDB, and Node.js for seamless integration and optimal performance.",
         tags: ["React", "Node.js", "MongoDB", "Express", "Bootstrap", "AP 2"],
         imageUrl: whatsapp,
-        linkUrl:"https://github.com/guyreuveni33/WhatsappAP2023",
+        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023",
     },
     {
         title: "Tic Tac Toe",
@@ -83,48 +95,49 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/TicTacToe.git"
     },
 
-    {
-        title: "Break Breaker - Arkanoid",
-        description:
-            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
-        tags: ["Java", "Design Pattern", "OOP"],
-        imageUrl: arkanoidImg,
-        linkUrl:"https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
 
-    },
     {
         title: "Vector Classifier",
         description:
             "Created a Vector Classifier project in C++ employing the KNN algorithm and a multi-threading server-client connection for efficient vector classification.",
         tags: ["C++", "Multi-Threading", "Algorithm", "SocketIO", "AP 1"],
         imageUrl: KNN,
-        linkUrl:"https://github.com/guyreuveni33/Vector-Classifier",
+        linkUrl: "https://github.com/guyreuveni33/Vector-Classifier",
     },
-
     {
-        title: "P String Library",
+        title: "Break Breaker - Arkanoid",
         description:
-            "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
-        tags: ["Assembly", "Linux"],
-        imageUrl: Pstring,
-        linkUrl:"https://github.com/guyreuveni33/Pstring",
+            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
+        tags: ["Java", "Design Pattern", "OOP"],
+        imageUrl: arkanoidImg,
+        linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
 
     },
+
     {
         title: "Dynamic Dictionary",
         description:
             " A dynamic dictionary implemented in C, using dynamic allocation and linked lists to manage the dictionary.",
         tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
         imageUrl: dic,
-        linkUrl:"https://github.com/guyreuveni33/Dynamic-Dictionary",
+        linkUrl: "https://github.com/guyreuveni33/Dynamic-Dictionary",
+    },
+    {
+        title: "P String Library",
+        description:
+            "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
+        tags: ["Assembly", "Linux"],
+        imageUrl: Pstring,
+        linkUrl: "https://github.com/guyreuveni33/Pstring",
+
     },
     {
         title: "Parallel BFS",
         description:
             "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
-        tags: ["C", "ThreadPool", "Parallel Computing","Algorithm"],
+        tags: ["C", "ThreadPool", "Parallel Computing", "Algorithm"],
         imageUrl: BFS,
-        linkUrl:"https://github.com/guyreuveni33/Parallel-BFS",
+        linkUrl: "https://github.com/guyreuveni33/Parallel-BFS",
     },
     {
         title: "Android Web Chat",
@@ -134,7 +147,6 @@ export const projectsData = [
         imageUrl: android,
         linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
-
 
 
 ] as const;
@@ -157,9 +169,12 @@ export const skillsData = [
     "Python",
     "Bootsrap",
     "C#",
+    "OOP",
+    "Flask",
+    "Figma",
+    "Docker",
     "Android Development",
     "Assembly",
-    "OOP",
     "Data Structures",
     "Design Patterns",
     "Algorithms",
