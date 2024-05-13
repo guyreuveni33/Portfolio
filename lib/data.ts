@@ -9,6 +9,8 @@ import dic from "@/public/dic.png";
 import BFS from "@/public/BFS.webp";
 import android from "@/public/android.png";
 import ticTacToe from "@/public/ticTacToe.png";
+import currency from "@/public/currency.png";
+import {StaticImageData} from "next/image";
 
 export const links = [
     {
@@ -35,8 +37,7 @@ export const links = [
         name: "Contact",
         hash: "#contact",
     },
-] as const;
-
+] as const
 export const experiencesData = [
     {
         title: "Deputy of The Head Of Section - Bnei Hayeshivot",
@@ -73,7 +74,7 @@ export const experiencesData = [
             "the Scientific-Technological Reserve program, focusing on Python" +
             "programming to bolster their skills in mathematics, sciences, and" +
             "computing.",
-        icon: React.createElement(FaChalkboard ),
+        icon: React.createElement(FaChalkboard),
         date: "2023 - present",
     },
 ] as const;
@@ -89,21 +90,24 @@ export const projectsData = [
     },
     {
         title: "Tic Tac Toe",
-        description: "Developed a versatile Tic Tac Toe game featuring multiple difficulty levels and a two-player mode.",
+        description: "Developed a versatile Tic Tac Toe game featuring multiple difficulty levels and a two-player mode. Try the game by the website icon!",
         tags: ["Python", "Flask", "JavaScript", "CSS", "HTML", "Docker"],
         imageUrl: ticTacToe,
-        linkUrl: "https://github.com/guyreuveni33/TicTacToe.git"
+        linkUrl: "https://github.com/guyreuveni33/TicTacToe.git",
+        linkWebsite: "https://guyreuveni.pythonanywhere.com/",
+
     },
-
-
     {
-        title: "Vector Classifier",
+        title: "Currency Converter",
         description:
-            "Created a Vector Classifier project in C++ employing the KNN algorithm and a multi-threading server-client connection for efficient vector classification.",
-        tags: ["C++", "Multi-Threading", "Algorithm", "SocketIO", "AP 1"],
-        imageUrl: KNN,
-        linkUrl: "https://github.com/guyreuveni33/Vector-Classifier",
+        "A currency converter app that allows users to convert between currencies using the ExchangeRate - API. Give it a try by the website icon!",
+        tags: ["React", "JavaScript", "CSS", "API Integration", "HTML"],
+        imageUrl: currency,
+        linkUrl: "https://github.com/guyreuveni33/Currency-Converter.git",
+        linkWebsite: "https://currencyconverterguy.vercel.app/",
     },
+
+
     {
         title: "Break Breaker - Arkanoid",
         description:
@@ -113,15 +117,16 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
 
     },
-
     {
-        title: "Dynamic Dictionary",
+        title: "Vector Classifier",
         description:
-            " A dynamic dictionary implemented in C, using dynamic allocation and linked lists to manage the dictionary.",
-        tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
-        imageUrl: dic,
-        linkUrl: "https://github.com/guyreuveni33/Dynamic-Dictionary",
+            "Created a Vector Classifier project in C++ employing the KNN algorithm and a multi-threading server-client connection for efficient vector classification.",
+        tags: ["C++", "Multi-Threading", "Algorithm", "SocketIO", "AP 1"],
+        imageUrl: KNN,
+        linkUrl: "https://github.com/guyreuveni33/Vector-Classifier",
+
     },
+
     {
         title: "P String Library",
         description:
@@ -132,12 +137,13 @@ export const projectsData = [
 
     },
     {
-        title: "Parallel BFS",
+        title: "Dynamic Dictionary",
         description:
-            "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
-        tags: ["C", "ThreadPool", "Parallel Computing", "Algorithm"],
-        imageUrl: BFS,
-        linkUrl: "https://github.com/guyreuveni33/Parallel-BFS",
+            " A dynamic dictionary implemented in C, using dynamic allocation and linked lists to manage the dictionary.",
+        tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
+        imageUrl: dic,
+        linkUrl: "https://github.com/guyreuveni33/Dynamic-Dictionary",
+
     },
     {
         title: "Android Web Chat",
@@ -147,6 +153,17 @@ export const projectsData = [
         imageUrl: android,
         linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
+
+    {
+        title: "Parallel BFS",
+        description:
+            "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
+        tags: ["C", "ThreadPool", "Parallel Computing", "Algorithm"],
+        imageUrl: BFS,
+        linkUrl: "https://github.com/guyreuveni33/Parallel-BFS",
+
+    },
+
 
 
 ] as const;
