@@ -72,7 +72,7 @@ export const experiencesData = [
         description:
             "As a part-time Teacher Assistant at cet, I guide high school students in" +
             "the Scientific-Technological Reserve program, focusing on Python" +
-            "programming to bolster their skills in mathematics, sciences, and" +
+            "programming to bolster their skills in mathematics, sciences, and " +
             "computing.",
         icon: React.createElement(FaChalkboard),
         date: "2023 - present",
@@ -94,7 +94,7 @@ export const projectsData = [
         tags: ["Python", "Flask", "JavaScript", "CSS", "HTML", "Docker"],
         imageUrl: ticTacToe,
         linkUrl: "https://github.com/guyreuveni33/TicTacToe.git",
-        linkWebsite: "https://guyreuveni.pythonanywhere.com/",
+        linkWebsite: "https://tictactoguyreuveni.vercel.app/",
 
     },
     {
