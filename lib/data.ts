@@ -10,6 +10,7 @@ import BFS from "@/public/BFS.webp";
 import android from "@/public/android.png";
 import ticTacToe from "@/public/ticTacToe.png";
 import currency from "@/public/currency.png";
+import todo from "@/public/todo.png";
 import {StaticImageData} from "next/image";
 
 export const links = [
@@ -100,23 +101,25 @@ export const projectsData = [
     {
         title: "Currency Converter",
         description:
-        "A currency converter app that allows users to convert between currencies using the ExchangeRate - API. Give it a try by the website icon!",
+            "A currency converter app that allows users to convert between currencies using the ExchangeRate - API. Give it a try by the website icon!",
         tags: ["React", "JavaScript", "CSS", "API Integration", "HTML"],
         imageUrl: currency,
         linkUrl: "https://github.com/guyreuveni33/Currency-Converter.git",
         linkWebsite: "https://currencyconverterguy.vercel.app/",
     },
-
-
     {
-        title: "Break Breaker - Arkanoid",
+        title: "Todo-List App",
         description:
-            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
-        tags: ["Java", "Design Pattern", "OOP"],
-        imageUrl: arkanoidImg,
-        linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
+            "Created a Todo-List app with a React frontend and C# backend using MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
+        tags: ["C#", "React","Client-Server","REST API" ,"MongoDB"],
+        imageUrl: todo,
+        linkUrl: "https://github.com/guyreuveni33/ToDoApp.git",
 
     },
+
+
+
+
     {
         title: "Vector Classifier",
         description:
@@ -126,14 +129,13 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Vector-Classifier",
 
     },
-
     {
-        title: "P String Library",
+        title: "Break Breaker - Arkanoid",
         description:
-            "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
-        tags: ["Assembly", "Linux"],
-        imageUrl: Pstring,
-        linkUrl: "https://github.com/guyreuveni33/Pstring",
+            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
+        tags: ["Java", "Design Pattern", "OOP"],
+        imageUrl: arkanoidImg,
+        linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
 
     },
     {
@@ -146,13 +148,16 @@ export const projectsData = [
 
     },
     {
-        title: "Android Web Chat",
+        title: "P String Library",
         description:
-            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
-        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
-        imageUrl: android,
-        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
+            "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
+        tags: ["Assembly", "Linux"],
+        imageUrl: Pstring,
+        linkUrl: "https://github.com/guyreuveni33/Pstring",
+
     },
+
+
 
     {
         title: "Parallel BFS",
@@ -164,7 +169,14 @@ export const projectsData = [
 
     },
 
-
+    {
+        title: "Android Web Chat",
+        description:
+            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
+        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
+        imageUrl: android,
+        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
+    },
 
 ] as const;
 
