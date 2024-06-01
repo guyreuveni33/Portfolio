@@ -22,10 +22,10 @@ export default function About() {
                 problem-solving aspect. I <span className="underline">love</span> the
                 feeling of finally figuring out a solution to a problem. My core stack
                 is {" "}
-                <span className="font-medium"> React, Next.js, Node.js, MongoDB, and C.</span>
+                <span className="font-medium"> React, Next.js, Node.js,C#,C and MongoDB. </span>
 
                 Known for my strong collaborative spirit, I leverage excellent communication
-                skills to work seamlessly within cross-functional teams. {" "} Currently pursuing a degree, I am actively seeking a <span className="font-medium"> student position</span>
+                skills to work seamlessly within cross-functional teams. {" "} Currently pursuing a degree, I am actively seeking a <span className="font-medium"> full/part time position</span>
                 {" "}to
                 contribute to real-world projects while advancing my studies at the university.
             </p>
