@@ -132,12 +132,12 @@ export const projectsData = [
 
     },
     {
-        title: "Worker Manager",
+        title: "Worker Management\n",
         description:
-            "Built a Worker Management System using React for the frontend and Koa.js for the backend. This application allows administrators to manage workers by adding, editing, deleting, and filtering user records. The system supports dynamic sorting, role-based filtering, and a modal-based user interface for managing worker data.",
-        tags: ["React", "Koa.js", "User Management", "CRUD", "JavaScript", "REST API", "Hooks"],
+            "Developed a system for managing workers with features for adding, editing, deleting, and filtering records, including dynamic sorting and role-based filtering.",
+        tags: ["React", "Node.js", "JavaScript", "REST API", "MongoDB", "Express"],
         imageUrl: workerManger, // Replace with the actual image file path or URL
-        linkUrl: "https://github.com/yourusername/WorkerManager.git",
+        linkUrl: "https://github.com/guyreuveni33/Worker-Manger.git",
     },
     {
         title: "Dynamic Dictionary",
