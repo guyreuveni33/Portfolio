@@ -11,6 +11,7 @@ import android from "@/public/android.png";
 import ticTacToe from "@/public/ticTacToe.png";
 import currency from "@/public/currency.png";
 import todo from "@/public/todo.png";
+import workerManger from "@/public/workerManger.png";
 import {StaticImageData} from "next/image";
 
 export const links = [
@@ -107,11 +108,12 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Currency-Converter.git",
         linkWebsite: "https://currencyconverterguy.vercel.app/",
     },
+
     {
         title: "Todo-List App",
         description:
-            "Created a Todo-List app with a React frontend and C# backend using MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
-        tags: ["C#", "React","Client-Server","REST API" ,"MongoDB"],
+            "Created a Todo-List app with a React frontend and C# backend using .NET 8.0 and MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
+        tags: ["C#", "React","Client-Server",".NET 8.0","REST API" ,"MongoDB"],
         imageUrl: todo,
         linkUrl: "https://github.com/guyreuveni33/ToDoApp.git",
 
@@ -130,13 +132,12 @@ export const projectsData = [
 
     },
     {
-        title: "Break Breaker - Arkanoid",
+        title: "Worker Manager",
         description:
-            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
-        tags: ["Java", "Design Pattern", "OOP"],
-        imageUrl: arkanoidImg,
-        linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
-
+            "Built a Worker Management System using React for the frontend and Koa.js for the backend. This application allows administrators to manage workers by adding, editing, deleting, and filtering user records. The system supports dynamic sorting, role-based filtering, and a modal-based user interface for managing worker data.",
+        tags: ["React", "Koa.js", "User Management", "CRUD", "JavaScript", "REST API", "Hooks"],
+        imageUrl: workerManger, // Replace with the actual image file path or URL
+        linkUrl: "https://github.com/yourusername/WorkerManager.git",
     },
     {
         title: "Dynamic Dictionary",
@@ -148,6 +149,16 @@ export const projectsData = [
 
     },
     {
+        title: "Break Breaker - Arkanoid",
+        description:
+            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
+        tags: ["Java", "Design Pattern", "OOP"],
+        imageUrl: arkanoidImg,
+        linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
+
+    },
+
+    {
         title: "P String Library",
         description:
             "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
@@ -158,7 +169,14 @@ export const projectsData = [
     },
 
 
-
+    {
+        title: "Android Web Chat",
+        description:
+            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
+        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
+        imageUrl: android,
+        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
+    },
     {
         title: "Parallel BFS",
         description:
@@ -169,14 +187,7 @@ export const projectsData = [
 
     },
 
-    {
-        title: "Android Web Chat",
-        description:
-            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
-        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
-        imageUrl: android,
-        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
-    },
+
 
 ] as const;
 
