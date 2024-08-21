@@ -13,7 +13,8 @@ import currency from "@/public/currency.png";
 import todo from "@/public/todo.png";
 import workerManger from "@/public/workerManger.png";
 import {StaticImageData} from "next/image";
-
+import Neural_Networks from "@/public/Neural_Networks.png";
+import KMeans_PCA from "@/public/KMeans_PCA.png";
 export const links = [
     {
         name: "Home",
@@ -140,6 +141,21 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Worker-Manger.git",
     },
     {
+        title: "Neural Networks - NumPy and PyTorch",
+        description: "Built neural networks for digit and fashion classification using NumPy and PyTorch, with MLP and CNN models on MNIST & FashionMNIST.",
+        tags: ["Python", "NumPy", "PyTorch", "CNN", "Machine Learning"],
+        imageUrl: Neural_Networks,
+        linkUrl: "https://github.com/guyreuveni33/Neural-Networks-NumPy-PyTorch"
+    },
+    {
+        title: "K-Means and PCA Implementation",
+        description:"Developed K-Means clustering and PCA algorithms with NumPy, clustering a synthetic dataset and reducing MNIST's dimensionality.",
+          tags : ["Python", "NumPy", "K-Means", "PCA", "Machine Learning"],
+         imageUrl : KMeans_PCA,
+         linkUrl : "https://github.com/guyreuveni33/KMeans-PCA-Implementation"
+    },
+
+    {
         title: "Dynamic Dictionary",
         description:
             " A dynamic dictionary implemented in C, using dynamic allocation and linked lists to manage the dictionary.",
@@ -218,4 +234,8 @@ export const skillsData = [
     "Data Structures",
     "Design Patterns",
     "Algorithms",
+    "Machine Learning",
+    "Neural Networks",
+    "NumPy",
+    "PyTorch",
 ] as const;
