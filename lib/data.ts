@@ -15,6 +15,10 @@ import workerManger from "@/public/workerManger.png";
 import {StaticImageData} from "next/image";
 import Neural_Networks from "@/public/Neural_Networks.png";
 import KMeans_PCA from "@/public/KMeans_PCA.png";
+import aa from "@/public/aa.png";
+import jsMentor from "@/public/jsMentor.png";
+import Portfolio from "@/public/Portfolio.png";
+
 export const links = [
     {
         name: "Home",
@@ -92,12 +96,88 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023",
     },
     {
+        title: "PortfoliWise",
+        description:"PortfoliWise is a financial portfolio app that consolidates portfolios from multiple brokers in one place, featuring real-time stock data, portfolio analysis, and machine learning predictions.",
+         tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API Integration"],
+        imageUrl: Portfolio,
+        linkUrl: "https://github.com/guyreuveni33/final_project.git",
+    },
+
+    {
+        title: "Javascript Mentor",
+        description: "A real-time coding collaboration platform where mentors guide students through exercises, provide instant feedback. Built with React, Node.js, and Socket.IO.",
+
+        tags: ["React", "Node.js", "JavaScript", "CSS", "HTML", "Socket.io"],
+        imageUrl: jsMentor,
+        linkUrl: "https://github.com/guyreuveni33/MentorCodeSpace.git",
+        linkWebsite: "https://mentor-code-space.vercel.app/",
+
+    },
+    {
         title: "Tic Tac Toe",
         description: "Developed a versatile Tic Tac Toe game featuring multiple difficulty levels and a two-player mode. Try the game by the website icon!",
         tags: ["Python", "Flask", "JavaScript", "CSS", "HTML", "Docker"],
         imageUrl: ticTacToe,
         linkUrl: "https://github.com/guyreuveni33/TicTacToe.git",
         linkWebsite: "https://tictactoguyreuveni.vercel.app/",
+
+    },
+    {
+        title: "Dynamic Dictionary",
+        description:
+            "Multilingual dictionary in C using dynamic allocation and linked lists. Supports file handling, word management, and operations like adding, searching, deleting, and sorting.",
+        tags: ["C", "Dynamic Allocation", "File Handling", "Data Structures"],
+        imageUrl: aa,
+        linkUrl: "https://github.com/guyreuveni33/Dynamic-Dictionary",
+
+    },
+    {
+        title: "Todo-List App",
+        description:
+            "Created a Todo-List app with a React frontend and C# backend using .NET 8.0 and MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
+        tags: ["C#", "React", "Client-Server", ".NET 8.0", "REST API", "MongoDB"],
+        imageUrl: todo,
+        linkUrl: "https://github.com/guyreuveni33/ToDoApp.git",
+
+    },
+
+    {
+        title: "Neural Networks - NumPy and PyTorch",
+        description: "Built neural networks for digit and fashion classification using NumPy and PyTorch, with MLP and CNN models on MNIST & FashionMNIST.",
+        tags: ["Python", "NumPy", "PyTorch", "CNN", "Machine Learning"],
+        imageUrl: Neural_Networks,
+        linkUrl: "https://github.com/guyreuveni33/Neural-Networks-NumPy-PyTorch"
+    },
+
+
+
+
+
+    {
+        title: "Worker Management",
+        description:
+            "Developed a system for managing workers with features for adding, editing, deleting, and filtering records, including dynamic sorting and role-based filtering.",
+        tags: ["React", "Node.js", "JavaScript", "REST API", "MongoDB", "Express"],
+        imageUrl: workerManger, // Replace with the actual image file path or URL
+        linkUrl: "https://github.com/guyreuveni33/Worker-Manger.git",
+    },
+
+    {
+        title: "K-Means and PCA Implementation",
+        description: "Developed K-Means clustering and PCA algorithms with NumPy, clustering a synthetic dataset and reducing MNIST's dimensionality.",
+        tags: ["Python", "NumPy", "K-Means", "PCA", "Machine Learning"],
+        imageUrl: KMeans_PCA,
+        linkUrl: "https://github.com/guyreuveni33/KMeans-PCA-Implementation"
+    },
+
+
+    {
+        title: "Break Breaker - Arkanoid",
+        description:
+            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
+        tags: ["Java", "Design Pattern", "OOP"],
+        imageUrl: arkanoidImg,
+        linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
 
     },
     {
@@ -110,79 +190,6 @@ export const projectsData = [
         linkWebsite: "https://currencyconverterguy.vercel.app/",
     },
 
-    {
-        title: "Todo-List App",
-        description:
-            "Created a Todo-List app with a React frontend and C# backend using .NET 8.0 and MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
-        tags: ["C#", "React","Client-Server",".NET 8.0","REST API" ,"MongoDB"],
-        imageUrl: todo,
-        linkUrl: "https://github.com/guyreuveni33/ToDoApp.git",
-
-    },
-
-
-
-
-    {
-        title: "Vector Classifier",
-        description:
-            "Created a Vector Classifier project in C++ employing the KNN algorithm and a multi-threading server-client connection for efficient vector classification.",
-        tags: ["C++", "Multi-Threading", "Algorithm", "SocketIO", "AP 1"],
-        imageUrl: KNN,
-        linkUrl: "https://github.com/guyreuveni33/Vector-Classifier",
-
-    },
-    {
-        title: "Worker Management\n",
-        description:
-            "Developed a system for managing workers with features for adding, editing, deleting, and filtering records, including dynamic sorting and role-based filtering.",
-        tags: ["React", "Node.js", "JavaScript", "REST API", "MongoDB", "Express"],
-        imageUrl: workerManger, // Replace with the actual image file path or URL
-        linkUrl: "https://github.com/guyreuveni33/Worker-Manger.git",
-    },
-    {
-        title: "Neural Networks - NumPy and PyTorch",
-        description: "Built neural networks for digit and fashion classification using NumPy and PyTorch, with MLP and CNN models on MNIST & FashionMNIST.",
-        tags: ["Python", "NumPy", "PyTorch", "CNN", "Machine Learning"],
-        imageUrl: Neural_Networks,
-        linkUrl: "https://github.com/guyreuveni33/Neural-Networks-NumPy-PyTorch"
-    },
-    {
-        title: "K-Means and PCA Implementation",
-        description:"Developed K-Means clustering and PCA algorithms with NumPy, clustering a synthetic dataset and reducing MNIST's dimensionality.",
-          tags : ["Python", "NumPy", "K-Means", "PCA", "Machine Learning"],
-         imageUrl : KMeans_PCA,
-         linkUrl : "https://github.com/guyreuveni33/KMeans-PCA-Implementation"
-    },
-
-    {
-        title: "Dynamic Dictionary",
-        description:
-            " A dynamic dictionary implemented in C, using dynamic allocation and linked lists to manage the dictionary.",
-        tags: ["C", "Dynamic Allocation", "Computer science Introduction"],
-        imageUrl: dic,
-        linkUrl: "https://github.com/guyreuveni33/Dynamic-Dictionary",
-
-    },
-    {
-        title: "Break Breaker - Arkanoid",
-        description:
-            "OOP project: A modern twist on the classic Arkanoid game. Experience nostalgia with user-friendly levels of increasing difficulty.",
-        tags: ["Java", "Design Pattern", "OOP"],
-        imageUrl: arkanoidImg,
-        linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
-
-    },
-
-    {
-        title: "P String Library",
-        description:
-            "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
-        tags: ["Assembly", "Linux"],
-        imageUrl: Pstring,
-        linkUrl: "https://github.com/guyreuveni33/Pstring",
-
-    },
 
 
     {
@@ -194,6 +201,15 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
     {
+        title: "P String Library",
+        description:
+            "Assembly language library functions designed for working with Pstrings in a manner analogous to the string.h library in the C language.",
+        tags: ["Assembly", "Linux"],
+        imageUrl: Pstring,
+        linkUrl: "https://github.com/guyreuveni33/Pstring",
+
+    },
+    {
         title: "Parallel BFS",
         description:
             "A parallel implementation of the BFS algorithm in C using ThreadsPool for efficient graph traversal.",
@@ -202,7 +218,6 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Parallel-BFS",
 
     },
-
 
 
 ] as const;
