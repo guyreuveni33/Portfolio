@@ -33,7 +33,7 @@ export default function Project({title, description, tags, imageUrl,linkUrl,link
                 opacity: opacityProgress,
             }}
         className="group p-2 mb-3 sm:mb-8 last:mb-0 transition">
-            <section className="bg-gray-100 max-w-[43rem] border border-black/5 rounded-lg overflow-hidden
+            <section className="bg-gray-100 max-w-[55rem] border border-black/5 rounded-lg overflow-hidden
              sm:pr-8 relative sm:h-[21rem]
              hover:bg-gray-200 transition sm:group-even:pl-8
              dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
