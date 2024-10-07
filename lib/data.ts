@@ -154,7 +154,7 @@ export const projectsData = [
 
 
     {
-        title: "Worker Management",
+        title: "Worker Manager",
         description:
             "Developed a system for managing workers with features for adding, editing, deleting, and filtering records, including dynamic sorting and role-based filtering.",
         tags: ["React", "Node.js", "JavaScript", "REST API", "MongoDB", "Express"],
