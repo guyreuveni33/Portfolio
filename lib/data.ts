@@ -98,7 +98,7 @@ export const projectsData = [
     {
         title: "PortfoliWise",
         description:"PortfoliWise is a financial portfolio app that consolidates portfolios from multiple brokers in one place, featuring real-time stock data, portfolio analysis, and ML predictions.",
-         tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API Integration"],
+         tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API"],
         imageUrl: Portfolio,
         linkUrl: "https://github.com/guyreuveni33/final_project.git",
     },
