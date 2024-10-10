@@ -18,7 +18,7 @@ import KMeans_PCA from "@/public/KMeans_PCA.png";
 import aa from "@/public/aa.png";
 import jsMentor from "@/public/jsMentor.png";
 import Portfolio from "@/public/Portfolio.png";
-
+import checkersImage from "@/public/checkers.png";
 export const links = [
     {
         name: "Home",
@@ -114,14 +114,15 @@ export const projectsData = [
 
     },
     {
-        title: "Tic Tac Toe",
-        description: "Developed a versatile Tic Tac Toe game featuring multiple difficulty levels and a two-player mode. Try the game by the website icon!",
-        tags: ["Python", "Flask", "JavaScript", "CSS", "HTML", "Docker"],
-        imageUrl: ticTacToe,
-        linkUrl: "https://github.com/guyreuveni33/TicTacToe.git",
-        linkWebsite: "https://tictactoguyreuveni.vercel.app/",
-
+        title: "Checkers Game",
+        description:
+            "Developed a multiplayer checkers game using React, .NET C#, and Socket.io, featuring real-time gameplay and synchronized moves across tabs.",
+        tags: ["React", ".NET C#", "Socket.io", "WebSocket", "Game Development"],
+        imageUrl: checkersImage, // replace `checkersImage` with the actual image variable or path
+        linkUrl: "https://github.com/guyreuveni33/Checkers.git",
     },
+
+
     {
         title: "Dynamic Dictionary",
         description:
@@ -132,14 +133,15 @@ export const projectsData = [
 
     },
     {
-        title: "Todo-List App",
-        description:
-            "Created a Todo-List app with a React frontend and C# backend using .NET 8.0 and MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
-        tags: ["C#", "React", "Client-Server", ".NET 8.0", "REST API", "MongoDB"],
-        imageUrl: todo,
-        linkUrl: "https://github.com/guyreuveni33/ToDoApp.git",
+        title: "Tic Tac Toe",
+        description: "Developed a versatile Tic Tac Toe game featuring multiple difficulty levels and a two-player mode. Try the game by the website icon!",
+        tags: ["Python", "Flask", "JavaScript", "CSS", "HTML", "Docker"],
+        imageUrl: ticTacToe,
+        linkUrl: "https://github.com/guyreuveni33/TicTacToe.git",
+        linkWebsite: "https://tictactoguyreuveni.vercel.app/",
 
     },
+
 
     {
         title: "Neural Networks - NumPy and PyTorch",
@@ -150,17 +152,18 @@ export const projectsData = [
     },
 
 
-
-
-
     {
-        title: "Worker Manager",
+        title: "Todo-List App",
         description:
-            "Developed a system for managing workers with features for adding, editing, deleting, and filtering records, including dynamic sorting and role-based filtering.",
-        tags: ["React", "Node.js", "JavaScript", "REST API", "MongoDB", "Express"],
-        imageUrl: workerManger, // Replace with the actual image file path or URL
-        linkUrl: "https://github.com/guyreuveni33/Worker-Manger.git",
+            "Created a Todo-List app with a React frontend and C# backend using .NET 8.0 and MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
+        tags: ["C#", "React", "Client-Server", ".NET 8.0", "REST API", "MongoDB"],
+        imageUrl: todo,
+        linkUrl: "https://github.com/guyreuveni33/ToDoApp.git",
+
     },
+
+
+
 
     {
         title: "K-Means and PCA Implementation",
@@ -170,7 +173,22 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/KMeans-PCA-Implementation"
     },
 
-
+    {
+        title: "Worker Manager",
+        description:
+            "Developed a system for managing workers with features for adding, editing, deleting, and filtering records, including dynamic sorting and role-based filtering.",
+        tags: ["React", "Node.js", "JavaScript", "REST API", "MongoDB", "Express"],
+        imageUrl: workerManger, // Replace with the actual image file path or URL
+        linkUrl: "https://github.com/guyreuveni33/Worker-Manger.git",
+    },{
+        title: "Currency Converter",
+        description:
+            "A currency converter app that allows users to convert between currencies using the ExchangeRate - API. Give it a try by the website icon!",
+        tags: ["React", "JavaScript", "CSS", "API Integration", "HTML"],
+        imageUrl: currency,
+        linkUrl: "https://github.com/guyreuveni33/Currency-Converter.git",
+        linkWebsite: "https://currencyconverterguy.vercel.app/",
+    },
     {
         title: "Break Breaker - Arkanoid",
         description:
@@ -180,26 +198,11 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
 
     },
-    {
-        title: "Currency Converter",
-        description:
-            "A currency converter app that allows users to convert between currencies using the ExchangeRate - API. Give it a try by the website icon!",
-        tags: ["React", "JavaScript", "CSS", "API Integration", "HTML"],
-        imageUrl: currency,
-        linkUrl: "https://github.com/guyreuveni33/Currency-Converter.git",
-        linkWebsite: "https://currencyconverterguy.vercel.app/",
-    },
 
 
 
-    {
-        title: "Android Web Chat",
-        description:
-            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
-        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
-        imageUrl: android,
-        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
-    },
+
+
     {
         title: "P String Library",
         description:
@@ -208,6 +211,13 @@ export const projectsData = [
         imageUrl: Pstring,
         linkUrl: "https://github.com/guyreuveni33/Pstring",
 
+    }, {
+        title: "Android Web Chat",
+        description:
+            "Android Web Chat is a cutting-edge mobile app crafted in Android Studio, offering a smooth and responsive chatting experience.",
+        tags: ["Android Development", "Java", "AP 2", "MongoDB", "Node.js"],
+        imageUrl: android,
+        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023/tree/main/MyApplication",
     },
     {
         title: "Parallel BFS",
