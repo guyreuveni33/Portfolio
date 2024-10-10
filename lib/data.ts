@@ -19,6 +19,7 @@ import aa from "@/public/aa.png";
 import jsMentor from "@/public/jsMentor.png";
 import Portfolio from "@/public/Portfolio.png";
 import checkersImage from "@/public/checkers.png";
+
 export const links = [
     {
         name: "Home",
@@ -97,8 +98,8 @@ export const projectsData = [
     },
     {
         title: "PortfoliWise",
-        description:"PortfoliWise is a financial portfolio app that consolidates portfolios from multiple brokers in one place, featuring real-time stock data, portfolio analysis, and ML predictions.",
-         tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API"],
+        description: "PortfoliWise is a financial portfolio app that consolidates portfolios from multiple brokers in one place, featuring real-time stock data, portfolio analysis, and ML predictions.",
+        tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API"],
         imageUrl: Portfolio,
         linkUrl: "https://github.com/guyreuveni33/final_project.git",
     },
@@ -163,8 +164,6 @@ export const projectsData = [
     },
 
 
-
-
     {
         title: "K-Means and PCA Implementation",
         description: "Developed K-Means clustering and PCA algorithms with NumPy, clustering a synthetic dataset and reducing MNIST's dimensionality.",
@@ -180,7 +179,7 @@ export const projectsData = [
         tags: ["React", "Node.js", "JavaScript", "REST API", "MongoDB", "Express"],
         imageUrl: workerManger, // Replace with the actual image file path or URL
         linkUrl: "https://github.com/guyreuveni33/Worker-Manger.git",
-    },{
+    }, {
         title: "Currency Converter",
         description:
             "A currency converter app that allows users to convert between currencies using the ExchangeRate - API. Give it a try by the website icon!",
@@ -198,9 +197,6 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Arkanoid-BreakBreaker",
 
     },
-
-
-
 
 
     {
