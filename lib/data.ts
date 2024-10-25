@@ -10,10 +10,9 @@ import BFS from "@/public/BFS.webp";
 import android from "@/public/android.png";
 import ticTacToe from "@/public/ticTacToe.png";
 import currency from "@/public/currency.png";
-import todo from "@/public/todo.png";
+import todo from "@/public/todo1.png";
 import workerManger from "@/public/workerManger.png";
-import {StaticImageData} from "next/image";
-import Neural_Networks from "@/public/Neural_Networks.png";
+ import Neural_Networks from "@/public/Neural_Networks.png";
 import KMeans_PCA from "@/public/KMeans_PCA.png";
 import aa from "@/public/aa.png";
 import jsMentor from "@/public/jsMentor.png";
@@ -156,8 +155,8 @@ export const projectsData = [
     {
         title: "Todo-List App",
         description:
-            "Created a Todo-List app with a React frontend and C# backend using .NET 8.0 and MongoDB. Users can add, edit, delete, and prioritize tasks seamlessly.",
-        tags: ["C#", "React", "Client-Server", ".NET 8.0", "REST API", "MongoDB"],
+            "Created a Todo-List app with a React frontend and C# backend using .NET 8.0 and SQL. Users can add, edit, delete, and prioritize tasks seamlessly.",
+        tags: ["C#", "React","SQL", "Client-Server", ".NET 8.0", "REST API" ],
         imageUrl: todo,
         linkUrl: "https://github.com/guyreuveni33/ToDoApp.git",
 
