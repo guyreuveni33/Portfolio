@@ -16,7 +16,7 @@ import workerManger from "@/public/workerManger.png";
 import KMeans_PCA from "@/public/KMeans_PCA.png";
 import aa from "@/public/aa.png";
 import jsMentor from "@/public/jsMentor.png";
-import Portfolio from "@/public/Portfolio.png";
+import Portfolio from "@/public/portfoliwise.png";
 import checkersImage from "@/public/checkers.png";
 
 export const links = [
@@ -88,49 +88,11 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: "Web Chat",
-        description:
-            "Designed a dynamic web chat application using React, Java, MongoDB, and Node.js for seamless integration and optimal performance.",
-        tags: ["React", "Node.js", "MongoDB", "Express", "Bootstrap", "AP 2"],
-        imageUrl: whatsapp,
-        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023",
-    },
-    {
         title: "PortfoliWise",
         description: "PortfoliWise is a financial portfolio app that consolidates portfolios from multiple brokers in one place, featuring real-time stock data, portfolio analysis, and ML predictions.",
         tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API"],
         imageUrl: Portfolio,
         linkUrl: "https://github.com/guyreuveni33/final_project.git",
-    },
-
-    {
-        title: "Javascript Mentor",
-        description: "A real-time coding collaboration platform where mentors guide students through exercises, provide instant feedback. Built with React, Node.js, and Socket.IO.",
-
-        tags: ["React", "Node.js", "JavaScript", "CSS", "HTML", "Socket.io"],
-        imageUrl: jsMentor,
-        linkUrl: "https://github.com/guyreuveni33/MentorCodeSpace.git",
-        linkWebsite: "https://mentor-code-space.vercel.app/",
-
-    },
-    {
-        title: "Checkers Game",
-        description:
-            "Developed a multiplayer checkers game using React, .NET C#, and Socket.io, featuring real-time gameplay and synchronized moves across tabs.",
-        tags: ["React", ".NET C#", "Socket.io", "WebSocket", "Game Development"],
-        imageUrl: checkersImage, // replace `checkersImage` with the actual image variable or path
-        linkUrl: "https://github.com/guyreuveni33/Checkers.git",
-    },
-
-
-    {
-        title: "Dynamic Dictionary",
-        description:
-            "Multilingual dictionary in C using dynamic allocation and linked lists. Supports file handling, word management, and operations like adding, searching, deleting, and sorting.",
-        tags: ["C", "Dynamic Allocation", "File Handling", "Data Structures"],
-        imageUrl: aa,
-        linkUrl: "https://github.com/guyreuveni33/Dynamic-Dictionary",
-
     },
     {
         title: "Tic Tac Toe",
@@ -143,6 +105,39 @@ export const projectsData = [
     },
 
 
+
+    {
+        title: "Web Chat",
+        description:
+            "Designed a dynamic web chat application using React, Java, MongoDB, and Node.js for seamless integration and optimal performance.",
+        tags: ["React", "Node.js", "MongoDB", "Express", "Bootstrap", "AP 2"],
+        imageUrl: whatsapp,
+        linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023",
+    },
+
+
+    {
+        title: "Checkers Game",
+        description:
+            "Developed a multiplayer checkers game using React, .NET C#, and Socket.io, featuring real-time gameplay and synchronized moves across tabs.",
+        tags: ["React", ".NET C#", "Socket.io", "WebSocket", "Game Development"],
+        imageUrl: checkersImage, // replace `checkersImage` with the actual image variable or path
+        linkUrl: "https://github.com/guyreuveni33/Checkers.git",
+    },
+
+    {
+        title: "Javascript Mentor",
+        description: "A real-time coding collaboration platform where mentors guide students through exercises, provide instant feedback. Built with React, Node.js, and Socket.IO.",
+
+        tags: ["React", "Node.js", "JavaScript", "CSS", "HTML", "Socket.io"],
+        imageUrl: jsMentor,
+        linkUrl: "https://github.com/guyreuveni33/MentorCodeSpace.git",
+        linkWebsite: "https://mentor-code-space.vercel.app/",
+
+    },
+
+
+
     {
         title: "Neural Networks - NumPy and PyTorch",
         description: "Built neural networks for digit and fashion classification using NumPy and PyTorch, with MLP and CNN models on MNIST & FashionMNIST.",
@@ -151,7 +146,15 @@ export const projectsData = [
         linkUrl: "https://github.com/guyreuveni33/Neural-Networks-NumPy-PyTorch"
     },
 
+    {
+        title: "Dynamic Dictionary",
+        description:
+            "Multilingual dictionary in C using dynamic allocation and linked lists. Supports file handling, word management, and operations like adding, searching, deleting, and sorting.",
+        tags: ["C", "Dynamic Allocation", "File Handling", "Data Structures"],
+        imageUrl: aa,
+        linkUrl: "https://github.com/guyreuveni33/Dynamic-Dictionary",
 
+    },
     {
         title: "Todo-List App",
         description:
