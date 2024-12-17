@@ -93,6 +93,8 @@ export const projectsData = [
         tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API"],
         imageUrl: Portfolio,
         linkUrl: "https://github.com/guyreuveni33/final_project.git",
+        linkWebsite: "https://portfoli-wise.vercel.app/login",
+
     },
     {
         title: "Tic Tac Toe",
