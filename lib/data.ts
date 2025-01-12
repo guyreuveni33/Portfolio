@@ -173,7 +173,7 @@ export const projectsData = [
         description: "Developed K-Means clustering and PCA algorithms with NumPy, clustering a synthetic dataset and reducing MNIST's dimensionality.",
         tags: ["Python", "NumPy", "K-Means", "PCA", "Machine Learning"],
         imageUrl: KMeans_PCA,
-        linkUrl: "https://github.com/guyreuveni33/KMeans-PCA-Implementation"
+        linkUrl: "https://github.com/guyreuveni33/Vector-Classifier"
     },
 
     {
