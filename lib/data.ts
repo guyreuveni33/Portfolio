@@ -89,7 +89,7 @@ export const experiencesData = [
 export const projectsData = [
     {
         title: "PortfoliWise",
-        description: "PortfoliWise is a financial portfolio app that consolidates portfolios from multiple brokers in one place, featuring real-time stock data, portfolio analysis, and ML predictions.",
+        description: "PortfoliWise is a financial portfolio app that consolidates portfolios from multiple brokers in one place, featuring RT stock data, portfolio analysis, and ML predictions.",
         tags: ["React", "Node.js", "MongoDB", "Express", "ML", "API"],
         imageUrl: Portfolio,
         linkUrl: "https://github.com/guyreuveni33/final_project.git",
@@ -105,9 +105,6 @@ export const projectsData = [
         linkWebsite: "https://tictactoguyreuveni.vercel.app/",
 
     },
-
-
-
     {
         title: "Web Chat",
         description:
@@ -116,8 +113,6 @@ export const projectsData = [
         imageUrl: whatsapp,
         linkUrl: "https://github.com/guyreuveni33/WhatsappAP2023",
     },
-
-
     {
         title: "Checkers Game",
         description:
@@ -126,7 +121,6 @@ export const projectsData = [
         imageUrl: checkersImage, // replace `checkersImage` with the actual image variable or path
         linkUrl: "https://github.com/guyreuveni33/Checkers.git",
     },
-
     {
         title: "Javascript Mentor",
         description: "A real-time coding collaboration platform where mentors guide students through exercises, provide instant feedback. Built with React, Node.js, and Socket.IO.",
@@ -135,11 +129,7 @@ export const projectsData = [
         imageUrl: jsMentor,
         linkUrl: "https://github.com/guyreuveni33/MentorCodeSpace.git",
         linkWebsite: "https://mentor-code-space.vercel.app/",
-
     },
-
-
-
     {
         title: "Neural Networks - NumPy and PyTorch",
         description: "Built neural networks for digit and fashion classification using NumPy and PyTorch, with MLP and CNN models on MNIST & FashionMNIST.",
@@ -147,7 +137,6 @@ export const projectsData = [
         imageUrl: Neural_Networks,
         linkUrl: "https://github.com/guyreuveni33/Neural-Networks-NumPy-PyTorch"
     },
-
     {
         title: "Dynamic Dictionary",
         description:
